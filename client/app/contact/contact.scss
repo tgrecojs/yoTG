@@ -1,0 +1,30 @@
+.form-error-animation {
+    transition: 0.5s linear all;
+    color: red;
+    font-weight: 500;
+}
+
+.form-error-animation.ng-enter {
+    transition: 0.5s linear all;
+    opacity: 0;
+}
+
+.form-error-animation.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.form-error-animation.ng-leave {
+    transition: 0.5s linear all;
+    opacity: 1;
+}
+
+.form-error-animation.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+
+form {
+	margin-top: 1.5rem;
+	.btn .btn-default {
+		margin-top: 1.5rem;
+	}
+}

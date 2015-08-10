@@ -1,0 +1,40 @@
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    background-image: url('../assets/images/nyc-60.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.logo {
+    max-height: 300px;
+    padding: 2rem;
+}
+
+.navbar .navbar-default {
+    background-color: transparent;
+}
+
+.panel-default {
+    margin-top: 3rem;
+}

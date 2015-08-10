@@ -1,0 +1,210 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+$fa-font-path: "/bower_components/font-awesome/fonts";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import 'font-awesome/scss/font-awesome';
+
+/**
+ * App-wide Styles
+ */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+$base-font-size: 16px;
+//Line height should be base-font-s
+$base-line-height: 24px;
+$font-one: "Merriweather";
+$title-font: "Chapparal-Pro-Display";
+$footer-font : "Expo-Serif-Pro";
+$light: 300;
+$normal: 400;
+$bold : 700;
+$italic : italic;
+$text-shadow: 1px -2px 0px rgba(150, 150, 150, 1);
+body {
+    font-family: $font-one;
+}
+h1 {
+    font-size: 2em;
+    //Make the bottom margin 1 line-height / 36
+    font-weight: $bold;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: $bold;
+    .main-heading {
+        text-align: center;
+    }
+}
+
+.form-error {
+    color: red;
+    font-weight: $bold - 100;
+}
+.panel-heading {
+    font-size: 1.25em;
+    margin-bottom: .75rem;
+    font-weight: $bold;
+    text-align: center;
+}
+
+h1.blue-head {
+    color: #2b94c2;
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: $light;
+    center {
+        text-align: center
+    }
+}
+p {
+    font-size: 1em;
+    padding: .85rem;
+    line-height: 2em;
+    font-weight: $light;
+    text-align: justify;
+    > em {
+        font-style: $italic;
+    }
+}
+
+
+.about-intro {
+    font-style: $italic;
+    text-align: justify;
+    padding: 1em;
+}
+
+.lr-heading {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 1.25em;
+    margin-bottom: 1rem;
+}
+.quote-text {
+    font-size: 1.25em;
+    padding: 1.25rem;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+.top-nav > li a {
+    font-size: 1.125em;
+    padding-right: 1.15rem;
+}
+
+.button {
+    font-family: $font-one;
+    font-weight: $bold;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.form-wrapper {
+ h2 {
+    text-align: center;
+    }
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1em;
+    padding-top: 1rem;
+      text-align: center;
+    font-weight: $bold;
+}
+
+
+a .button .border-button {
+    font-family: $font-one;
+    font-weight: $bold;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+a:active {
+    font-weight: $bold;
+}
+
+
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    background-image: url('../assets/images/nyc-60.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.logo {
+    max-height: 300px;
+    padding: 2rem;
+    margin-top: 3em;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+    background-color: transparent;
+}
+
+.panel-default {
+    margin-top: 3rem;
+}
+
+.panel_img { 
+
+   padding: 2rem; 
+
+}
+
+.italics {
+    font-style: italic;
+}
+
+select {
+    color: black;
+}
+
+// Component styles are injected through grunt
+// injector
+@import 'areas-of-work/areas-of-work.scss';
+@import 'contact/contact.scss';
+@import 'main/main.scss';
+@import 'technologies/technologies.scss';
+@import 'modal/modal.scss';
+@import 'slider/slider.scss';
+// endinjector
+
+
